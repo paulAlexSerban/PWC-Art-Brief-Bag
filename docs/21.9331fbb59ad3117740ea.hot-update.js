@@ -1,1 +1,0 @@
-self.webpackHotUpdatepwc_art_brief_bag(21,{},(function(e){"use strict";e.h=function(){return"419c3671fd8ba5aefefd"}}));
