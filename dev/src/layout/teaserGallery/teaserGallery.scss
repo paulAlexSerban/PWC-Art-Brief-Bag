@@ -20,8 +20,12 @@ $gutter-horizontal: 3rem;
 
     &--split {
       display: grid;
-      grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+      grid-template-columns: 100%;
       column-gap: 40px;
+
+      @media (min-width: 768px) {
+        grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+      }
     }
   }
 
