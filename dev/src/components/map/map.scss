@@ -1,0 +1,15 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'map';
+
+.#{$moduleName} {
+  &__base {
+    height: 500px;
+    width: 100%;
+  }
+
+  &__wrapper {
+    height: 100%;
+    width: 100%;
+  }
+}

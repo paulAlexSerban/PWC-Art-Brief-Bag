@@ -1,0 +1,23 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'filter';
+
+.#{$moduleName} {
+  &__base {
+
+  }
+
+  &__selected-list {
+
+  }
+
+  &__selected-item {
+    height: 300px;
+  }
+
+  &__selected-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

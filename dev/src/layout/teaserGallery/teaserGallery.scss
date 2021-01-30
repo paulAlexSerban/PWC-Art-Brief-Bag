@@ -1,0 +1,51 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'teaserGallery';
+
+$row-height: 20rem;
+$gutter-horizontal: 3rem;
+
+.#{$moduleName} {
+  &__base {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    row-gap: 40px;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 100%;
+
+    &--split {
+      display: grid;
+      grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+      column-gap: 40px;
+    }
+  }
+
+  &__col {
+    height: 100%;
+    display: grid;
+
+    &--two-split {
+      grid-template-rows: auto;
+      row-gap: 40px;
+    }
+  }
+
+  &__sub-row {
+
+
+    &--1-of-2 {
+
+    }
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+  }
+}

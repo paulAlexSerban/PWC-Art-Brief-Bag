@@ -1,0 +1,22 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'modal';
+
+.#{$moduleName} {
+  &__base {
+    height: 100%;
+  }
+
+  &__content {
+    height: 100vh;
+  }
+
+  &__image {
+    object-fit: cover;
+    height: 60vh;
+
+    @media (min-width: 768px) {
+      height: 100vh;
+    }
+  }
+}

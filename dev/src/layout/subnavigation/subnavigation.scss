@@ -1,0 +1,36 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'subnavigation';
+
+.#{$moduleName} {
+  &__base {
+    justify-content: flex-end;
+    background-color: rgba($c-black, 0.5);
+    padding: 5px 20px;
+    margin-top: 0;
+    z-index: 900;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  &__item {}
+
+  &__link {
+    font-size: 1.6rem;
+    text-transform: lowercase;
+
+    .#{$moduleName}__base .#{$moduleName}__item.uk-active & {
+      background-color: transparent;
+      color: $c-black;
+      font-weight: 700;
+    }
+
+    .#{$moduleName}__base .#{$moduleName}__item & {
+      color: $c-white;
+
+      &:hover {
+        background-color: rgba($c-white, 0.3);
+      }
+    }
+  }
+}

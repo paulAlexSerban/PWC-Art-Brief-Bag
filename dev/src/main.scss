@@ -1,0 +1,49 @@
+@import './base/base';
+@import './base/animations';
+@import './base/typography';
+@import './base/utilities';
+
+// 3rd party imports
+@import "uikit/src/scss/variables.scss";
+@import "uikit/src/scss/mixins.scss";
+
+// 3rd party components
+@import 'node_modules/uikit/src/scss/components/slideshow';
+@import 'node_modules/uikit/src/scss/components/position';
+@import 'node_modules/uikit/src/scss/components/visibility';
+@import 'node_modules/uikit/src/scss/components/animation';
+@import 'node_modules/uikit/src/scss/components/utility';
+@import 'node_modules/uikit/src/scss/components/visibility';
+@import 'node_modules/uikit/src/scss/components/subnav';
+@import 'node_modules/uikit/src/scss/components/width';
+@import 'node_modules/uikit/src/scss/components/text';
+@import 'node_modules/uikit/src/scss/components/transition';
+@import 'node_modules/uikit/src/scss/components/margin';
+@import 'node_modules/uikit/src/scss/components/modal';
+@import 'node_modules/uikit/src/scss/components/navbar';
+@import 'node_modules/uikit/src/scss/components/offcanvas';
+@import 'node_modules/uikit/src/scss/components/flex';
+@import 'node_modules/uikit/src/scss/components/nav';
+@import 'node_modules/uikit/src/scss/components/grid';
+@import 'node_modules/uikit/src/scss/components/padding';
+@import 'node_modules/uikit/src/scss/components/cover';
+@import 'node_modules/uikit/src/scss/components/icon';
+@import 'node_modules/uikit/src/scss/components/slidenav';
+@import 'node_modules/uikit/src/scss/components/overlay';
+@import 'node_modules/uikit/src/scss/components/base';
+
+// Non-JS Layout Components
+@import "./layout/header/header.scss";
+@import "./layout/navigation/navigation.scss";
+@import "./layout/subnavigation/subnavigation.scss";
+@import "./layout/main/main.scss";
+@import "./layout/section/section.scss";
+@import "./layout/teaserGallery/teaserGallery.scss";
+@import "./layout/footer/footer.scss";
+
+// Non-JS Components
+@import "./components/carousel/carousel.scss";
+@import "./components/logo/logo.scss";
+@import "./components/filter/filter.scss";
+@import "./components/modal/modal.scss";
+@import "./components/hero/hero.scss";

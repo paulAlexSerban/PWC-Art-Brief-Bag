@@ -1,0 +1,38 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'carousel';
+
+.#{$moduleName} {
+
+  &__base,
+  &__list,
+  &__item,
+  &__slide,
+  &__image {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__image {
+    object-fit: cover;
+  }
+
+  &__control {
+    color: $c-white;
+
+    &.uk-slidenav {
+      &:hover {
+        color: $c-white;
+      }
+    }
+
+    svg {
+      height: 30px;
+      width: 30px;
+    }
+
+    polyline {
+      stroke-width: 5px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'logo';
+
+.#{$moduleName} {
+  &__base {
+    .navigation__base & {
+      height: 100%;
+      width: 100px;
+      padding: 10px 20px;
+    }
+  }
+
+  &__icon {
+    color: $c-white;
+  }
+}
