@@ -46,13 +46,14 @@ $moduleName: 'footer';
     margin-bottom: 5px;
   }
 
-  &__addressContainer,
-  &__social-list {}
-
   &__addressContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 5px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
   }
 
   &__email,
@@ -68,7 +69,9 @@ $moduleName: 'footer';
   }
 
   &__phone {
-    margin-left: 20px;
+    @media (min-width: 768px) {
+      margin-left: 20px;
+    }
   }
 
   &__social-list {
